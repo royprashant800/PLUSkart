@@ -1,0 +1,6 @@
+*{
+    font-family: 'roboto', sans-serif;
+}
+.flexRow{
+    display: flex;
+}
