@@ -95,6 +95,7 @@ const Header = (props) => {
               <p>Get access to your Orders, Wishlist and Recommendations</p>
             </div>
             <div className="rightspace">
+              <div className="loginInputContainer">
               <MaterialInput
                 type="text"
                 label="Enter Email/Enter Mobile Number"
@@ -117,14 +118,15 @@ const Header = (props) => {
                 onClick={userLogin}
               />
 
-              <p>OR</p>
+              <p style={{ textAlign: 'center' }}>OR</p>
 
               <MaterialButton
                 title="Request OTP"
                 bgColor="#ffffff"
                 textColor="#2874f0"
-                style={{ margin: "40px 20px 0" }}
+                style={{ margin: "20px 0" }}
               />
+              </div>
             </div>
           </div>
         </div>
