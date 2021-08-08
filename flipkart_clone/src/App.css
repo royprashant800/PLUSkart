@@ -1,6 +1,12 @@
-*{
-    font-family: 'roboto', sans-serif;
+* {
+  font-family: "roboto", sans-serif;
 }
-.flexRow{
-    display: flex;
+body {
+  background: #f1f3f6;
+}
+.flexRow {
+  display: flex;
+}
+.sb {
+  justify-content: space-between;
 }

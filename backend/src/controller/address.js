@@ -1,8 +1,8 @@
 const UserAddress = require("../models/address");
 
 exports.addAddress = (req, res) => {
-  return res.status(200).json({ body: req.body });
-  const payload = req.body;
+  // return res.status(200).json({ body: req.body });
+  const { payload } = req.body;
   if (payload.address) {
     UserAddress.findOneAndUpdate(
       { user: req.user._id },
