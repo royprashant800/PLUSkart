@@ -6,7 +6,7 @@ export const getAddress = () => {
     try {
       const res = await axios.post("/user/getaddress");
       dispatch({ type: userConstants.GET_USER_ADDRESS_REQUEST });
-      if (res.status == 200) {
+      if (res.status === 200) {
         const {
           userAddress: { address },
         } = res.data;
