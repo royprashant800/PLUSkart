@@ -1,3 +1,17 @@
+.cartItemContainer{
+    margin: 10px 5px;
+}
+.cartProImgContainer{
+    width: 112px;
+    height: 112px;
+    overflow: hidden;
+    text-align: center;
+}
+.cartProImgContainer img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
 .cartProImgContainer{
     width: 112px;
     height: 112px;
@@ -14,12 +28,10 @@
     justify-content: space-between;
     flex: 1;
 }
-.cartItemContainer{
-    margin: 10px 5px;
-}
+
 .cartActionBtn{
     margin: 0 10px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 600;
     text-transform: uppercase;
     background: transparent;
@@ -38,7 +50,7 @@
     border-radius: 15px;
     border: none;
     border: 1px solid #c2c2c2;
-    background-color: transparent
+    background-color: transparent;
 }
 .quantityControl input{
     width: 40px;

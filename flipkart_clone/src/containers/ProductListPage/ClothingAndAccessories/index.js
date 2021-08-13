@@ -4,6 +4,7 @@ import { getProductsBySlug } from "../../../actions";
 import Card from "../../../components/UI/Card";
 import { BiRupee } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import { generatePublicUrl } from "../../../urlConfig";
 
 import "./style.css";
 
@@ -36,7 +37,7 @@ const ClothingAndAccessories = (props) => {
               className="caImgContainer"
               to={`/${product.slug}/${product._id}/p`}
             >
-              <img src={product.productPictures[0].img} />
+              <img src={generatePublicUrl(product.productPictures[0].img)} alt="" />
             </Link>
             <div>
               <div className="caProductName">{product.name}</div>
