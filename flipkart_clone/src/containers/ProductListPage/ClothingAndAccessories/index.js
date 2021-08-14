@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { generatePublicUrl } from "../../../urlConfig";
 
 import "./style.css";
+import Footer from "../../../components/Footer/Footer";
 
 /**
  * @author

@@ -9,6 +9,7 @@ import { MaterialButton } from "../../components/MaterialUI";
 import "./style.css";
 import { generatePublicUrl } from "../../urlConfig";
 import { addToCart } from "../../actions";
+import Footer from "../../components/Footer/Footer";
 
 /**
  * @author
@@ -66,7 +67,7 @@ const ProductDetailsPage = (props) => {
             <div className="flexRow">
               <MaterialButton
                 title="ADD TO CART"
-                bgColor="#ff9f00"
+                bgColor="0f7665"
                 textColor="#ffffff"
                 style={{
                   marginRight: "5px",
@@ -81,7 +82,7 @@ const ProductDetailsPage = (props) => {
               />
               <MaterialButton
                 title="BUY NOW"
-                bgColor="#fb641b"
+                bgColor="0c1816"
                 textColor="#ffffff"
                 style={{
                   marginLeft: "5px",
@@ -172,6 +173,7 @@ const ProductDetailsPage = (props) => {
           </div>
         </div>
       </div>
+      <Footer />
     </Layout>
   );
 };

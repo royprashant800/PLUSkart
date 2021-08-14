@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addOrder, getAddress, getCartItems } from "../../actions";
+import Footer from "../../components/Footer/Footer";
 import Layout from "../../components/Layout";
 import {
   Anchor,
@@ -63,7 +64,7 @@ const Address = ({
                   onClick={() => enableAddressEditForm(adr)}
                   style={{
                     fontWeight: "500",
-                    color: "#2874f0",
+                    color: "#068e68",
                   }}
                 />
               )}
@@ -333,6 +334,7 @@ const CheckoutPage = (props) => {
           }, 0)}
         />
       </div>
+      <Footer />
     </Layout>
   );
 };

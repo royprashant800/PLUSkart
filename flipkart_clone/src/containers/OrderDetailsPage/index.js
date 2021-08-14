@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getOrder } from "../../actions";
+import Footer from "../../components/Footer/Footer";
 import Layout from "../../components/Layout";
 import Card from "../../components/UI/Card";
 import Price from "../../components/UI/Price";
@@ -125,6 +126,7 @@ const OrderDetailsPage = (props) => {
           </Card>
         ))}
       </div>
+      <Footer />
     </Layout>
   );
 };

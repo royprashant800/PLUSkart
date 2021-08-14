@@ -5,6 +5,7 @@ import getParams from "../../../utils/getParams";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import Card from "../../../components/UI/Card";
+import Footer from "../../../components/Footer/Footer";
 
 const Productpage = (props) => {
   const dispatch = useDispatch();

@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer/Footer";
 import Layout from "../../components/Layout";
 import getParams from "../../utils/getParams";
 import ClothingAndAccessories from "./ClothingAndAccessories";
@@ -30,7 +31,12 @@ const ProductListPage = (props) => {
     return content;
   };
 
-  return <Layout>{renderProduct()}</Layout>;
+  return (
+    <Layout>
+      {renderProduct()}
+      <Footer />
+    </Layout>
+  );
 };
 
 export default ProductListPage;

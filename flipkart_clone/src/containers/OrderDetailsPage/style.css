@@ -65,7 +65,7 @@
     top: -3px;
 }
 .orderStatus .point.active{
-    background-color: #26A541;
+    background-color: #068e68;
 }
 .orderInfo{
     height: 60px;
@@ -82,7 +82,7 @@
 }
 
 .orderInfo .status{
-    color: #26A541;
+    color: #068e68;
     text-transform: capitalize;
     font-weight: bold;
 }

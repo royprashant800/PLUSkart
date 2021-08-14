@@ -7,6 +7,7 @@ import { MaterialButton } from "../../../components/MaterialUI";
 import Rating from "../../../components/UI/Rating";
 import Price from "../../../components/UI/Price";
 import { generatePublicUrl } from "../../../urlConfig";
+import Footer from "../../../components/Footer/Footer";
 
 /**
  * @author
@@ -35,7 +36,7 @@ const ProductStore = (props) => {
                 style={{
                   width: "96px",
                 }}
-                bgColor="#2874f0"
+                bgColor="#068e68"
                 fontSize="12px"
               />
             }

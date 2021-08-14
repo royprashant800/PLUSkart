@@ -10,7 +10,7 @@
     font-size: 12px;
 }
 .orderStatus.active{
-    background: #26A541;
+    background: #068e68;
 }
 .orderStatus:last-child{
     width: 0;
@@ -24,7 +24,7 @@
     top: -5px;
 }
 .orderStatus .point.active{
-    background-color: #26A541;
+    background-color: #068e68;
 }
 .orderInfo{
     height: 60px;

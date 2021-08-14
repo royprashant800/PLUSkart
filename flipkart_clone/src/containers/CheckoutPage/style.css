@@ -13,13 +13,13 @@
   padding: 10px 20px;
 }
 .checkoutHeader.active {
-  background: #2874f0;
+  background: #068e68;
 }
 .checkoutHeader .stepNumber {
   display: inline-block;
   text-align: center;
   background: #eee;
-  color: #2874f0;
+  color: #068e68;
   border-radius: 3px;
   font-size: 12px;
   box-sizing: border-box;

@@ -1,0 +1,42 @@
+.footer-main{
+    background-color: #172337;
+    color: white;
+    padding: 30px 60px;
+}
+.footer-container{
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer-subcat{
+    width: 190px;
+}
+.footer-subcat label{
+    color: #878787;
+    text-transform: uppercase;
+}
+.footer-subcat li{
+    list-style-type: none;
+}
+.hr{
+    border-bottom: 1px solid rgb(94, 91, 91);
+}
+.others{
+    display: flex;
+    font-size: 13px;
+}
+.others li{
+    list-style-type: none;
+    margin-right: 60px;
+}
+.footer-subcat li{
+    padding: 3px 0px;
+    cursor: pointer;
+}
+.details li{
+    padding: 1px 0px;
+    cursor: auto;
+}
+.others img{
+    margin-left: 44px;
+}

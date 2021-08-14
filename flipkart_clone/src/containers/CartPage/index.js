@@ -8,6 +8,7 @@ import PriceDetails from "../../components/PriceDetails";
 
 import "./style.css";
 import { MaterialButton } from "../../components/MaterialUI";
+import Footer from "../../components/Footer/Footer";
 
 /**
  * @author
@@ -116,6 +117,7 @@ const CartPage = (props) => {
           }, 0)}
         />
       </div>
+      <Footer />
     </Layout>
   );
 };

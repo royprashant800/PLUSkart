@@ -130,7 +130,7 @@ const Header = (props) => {
                 setLoginModal(true);
                 setSignup(true);
               }}
-              style={{ color: "#2874f0" }}
+              style={{ color: "#068e68" }}
             >
               Sign Up
             </a>
@@ -186,7 +186,7 @@ const Header = (props) => {
                 />
                 <MaterialButton
                   title={signup ? "Register" : "Login"}
-                  bgColor="#fb641b"
+                  bgColor="#3cd6c4"
                   textColor="#ffffff"
                   style={{
                     margin: "40px 0 20px 0",
@@ -197,7 +197,7 @@ const Header = (props) => {
                 <MaterialButton
                   title="Request OTP"
                   bgColor="#ffffff"
-                  textColor="#2874f0"
+                  textColor="#0c9383"
                   style={{
                     margin: "20px 0",
                   }}
@@ -235,7 +235,7 @@ const Header = (props) => {
             <div className="searchIconContainer">
               <IoIosSearch
                 style={{
-                  color: "#2874f0",
+                  color: "#068e68",
                 }}
               />
             </div>
