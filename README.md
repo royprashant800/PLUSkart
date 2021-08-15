@@ -1,2 +1,2 @@
-# Flipkart-Clone
-Flipkart clone using MERN stack.
+# PLUSkart
+Ecommerce app using MERN stack.
