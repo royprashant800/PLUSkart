@@ -8,27 +8,13 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-subcat">
           <label>About</label>
-          <a>
-            <li>Contact Us</li>
-          </a>
-          <a>
-            <li>About Us</li>
-          </a>
-          <a>
-            <li>Careers</li>
-          </a>
-          <a>
-            <li>Flipkart Stories</li>
-          </a>
-          <a>
-            <li>Press</li>
-          </a>
-          <a>
-            <li>Flipkart Wholesale</li>
-          </a>
-          <a>
-            <li>Corporate Information</li>
-          </a>
+          <a><li>Contact Us</li></a>
+          <a><li>About Us</li></a>
+          <a><li>Careers</li></a>
+          <a><li>Flipkart Stories</li></a>
+          <a><li>Press</li></a>
+          <a><li>Flipkart Wholesale</li></a>
+          <a><li>Corporate Information</li></a>
         </div>
         <div className="footer-subcat">
           <label>Help</label>
