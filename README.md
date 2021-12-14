@@ -14,6 +14,12 @@ for state management.
 
 --> Features - Product navigation, product details, add to cart, save address, place orders, etc.
 
+
+We can see the project demo video here : Link (PART - 1) :- https://www.youtube.com/watch?v=mYdlgNXyRsU
+
+We can see the project demo video here : Link (PART - 2) :- https://www.youtube.com/watch?v=lRnCYAQmMLs&t=156s
+
+
 This is homepage...
 <img width="960" alt="Screenshot 2021-08-24 222649" src="https://user-images.githubusercontent.com/68124619/130658633-780f52b7-7a6f-4936-ba27-7f4ffc43c832.png">
      
